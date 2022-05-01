@@ -47,7 +47,7 @@ ln Images/*.jpg ../crowdhuman-$1/
 
 echo "** Generate yolo txt files"
 cd ..
-${PYTHON} gen_txts.py $1
+${PYTHON} gen_vbody_txts.py $1
 
 popd > /dev/null
 
